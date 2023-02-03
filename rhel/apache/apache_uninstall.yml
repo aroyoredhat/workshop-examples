@@ -5,5 +5,5 @@
   tasks:
   - name: Uninstall apache2
     yum:
-      name: apache2
+      name: httpd
       state: absent
