@@ -3,7 +3,7 @@
   hosts: all
 
   tasks:
-  - name: Install apache2
+  - name: Uninstall apache2
     yum:
       name: apache2
       state: absent
