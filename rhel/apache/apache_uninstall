@@ -1,0 +1,9 @@
+---
+- name: Uninstall Apache
+  hosts: all
+
+  tasks:
+  - name: Install apache2
+    yum:
+      name: apache2
+      state: absent
